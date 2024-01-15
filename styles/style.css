@@ -74,19 +74,23 @@ body {
 .banner * {
     margin-top: 50px;
 }
+.banner-title{
+    position: relative;
+    top: 80px;
+}
 
-.banner h1,
+.banner-title h1,
 p {
     text-align: center;
 }
 
-.banner h1 {
+.banner-title h1 {
     font-size: 4rem;
     border: 2px solid red;
     color: #FFF;
 }
 
-.banner p {
+.banner-title p {
     border: 2px solid blue;
     color: #FFF;
 }
@@ -98,8 +102,11 @@ p {
     gap: 24px;
     /* border: 2px solid greenyellow; */
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.494);
+    background: rgba(255, 255, 255, 0.428);
     position: relative;
     left: 230px;
     top: 119px;
 }
+
+
+/* Section-2 style start here */
