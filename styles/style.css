@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav section style start here */
+
+/* nav container style */
+.nav-contain {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    border: 2px solid pink;
+}
+
+.nav-container {
+    /* border: 2px solid red; */
+    display: flex;
+    min-width: 20px;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-container img {
+    width: 75px;
+    height: 55px;
+
+}
+
+.nav-container p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.span {
+    color: blue;
+    font-weight: 800;
+}
+
+/* nav item style */
+.nav-item {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+
+}
+
+.nav-item li {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+/* Main section style start here */
+
+/* section-1 style start here */
+.section-1 {
+    background-image: url('../Images/Group\ 13.png');
+    height: 500px;
+    width: 1170px;
+    margin: 35px auto;
+    border-radius: 15px;
+}
+
+.banner * {
+    margin-top: 50px;
+}
+
+.banner h1,
+p {
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    border: 2px solid red;
+    color: #FFF;
+}
+
+.banner p {
+    border: 2px solid blue;
+    color: #FFF;
+}
+
+.input-container {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    /* border: 2px solid greenyellow; */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.494);
+    position: relative;
+    left: 230px;
+    top: 119px;
+}
