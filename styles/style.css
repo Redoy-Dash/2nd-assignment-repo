@@ -166,6 +166,56 @@ p {
     line-height: normal;
 }
 
-/* .section-2-img{
-    border: 2px solid yellow;
-} */
+/* Section-3 style now start here */
+.section-3 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.section-3-title {
+    border: 2px solid violet;
+}
+
+.section-3-title h2 {
+    font-size: 2.5rem;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-3-img {
+    border: 2px solid steelblue;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(12, 1fr); */
+}
+
+/* Section-4 style now start here */
+.section-4 {
+    width: 1170px;
+    margin: 100px auto;
+    border: 2px solid red;
+}
+
+.section-4-content div {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+}
+
+.section-4-title h2,
+p {
+    text-align: center;
+}
+
+.section-4-title h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
