@@ -505,7 +505,7 @@ hr {
     /* section-1 responsive */
 
     .section-1 {
-        margin: 15px 32px;
+        margin: 25px 38px;
         background-size: 490px 580px;
         background-repeat: no-repeat;
         /* object-fit: cover; */
@@ -786,6 +786,27 @@ hr {
         font-weight: 800;
         line-height: normal;
         bottom: 4px;
+    }
+
+    /* footer responsive */
+
+    .footer {
+        width: 559px;
+        height: 490px;
+        flex-shrink: 0;
+    }
+
+    .footer p {
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0 55px;
+    }
+    .footer hr{
+        width: 80%;
     }
 
 }
