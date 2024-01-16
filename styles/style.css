@@ -145,7 +145,7 @@ p {
 }
 
 .section-2-item {
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 }
 
 .section-2-item h2 {
@@ -197,24 +197,71 @@ p {
 .section-4 {
     width: 1170px;
     margin: 100px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+
+.section-4-content {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .section-4-content div {
-    width: 573px;
-    height: 284px;
+    width: 43%;
+    height: 230px;
     flex-shrink: 0;
+    border-radius: 15px;
+}
+
+.section-4-content-1 {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.section-4-content-2 {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+
+.section-4-content>div>p {
+    text-align: left;
+}
+
+.section-4-content-3 {
+    border: 2px solid greenyellow;
+    width: 573px;
+    height: 230px;
+    flex-shrink: 0;
+    margin: 24px auto;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.section-4-content-3 p {
+    text-align: left;
+}
+
+.section-4-title {
+    margin-bottom: 48px;
 }
 
 .section-4-title h2,
 p {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .section-4-title h2 {
     color: #131318;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
