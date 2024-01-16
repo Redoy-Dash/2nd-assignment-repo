@@ -656,5 +656,75 @@ hr {
 
     /* section-5 responsive */
 
+    .section-5 {
+        width: 490px;
+        margin: 0;
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .section-5-form {
+        position: relative;
+        width: 88%;
+        border-radius: 15px;
+        left: 32px;
+        text-align: center;
+    }
+
+    .section-5-form h3 {
+        color: #131318;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .section-5-form p {
+        color: #5A5A5D;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .section-5-img {
+        position: relative;
+        margin: 15px 32px;
+        background-size: 490px 335px;
+        background-repeat: no-repeat;
+    }
+
+    .img-box {
+        position: relative;
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: #FF5400;
+        left: 270px;
+        top: 202px;
+    }
+
+    .img-box h3 {
+        position: relative;
+        color: #FFF;
+        text-align: center;
+        font-size: 15.854px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        top: 15px;
+    }
+
+    .img-box h2 {
+        position: relative;
+        color: #FFF;
+        font-size: 21.138px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        bottom: 4px;
+    }
 
 }
