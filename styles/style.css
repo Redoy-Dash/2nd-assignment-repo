@@ -225,6 +225,56 @@ p {
     grid-column: 6/span 7;
 }
 
+.maldives{
+    position: relative;
+    font-size: 2rem;
+    color: #FFF;
+    left: 240px;
+    bottom: 255px;
+}
+.indonesia{
+    position: relative;
+    font-size: 2rem;
+    color: #FFF;
+    left: 210px;
+    bottom: 255px;
+}
+.Srilanka{
+    position: relative;
+    font-size: 2rem;
+    color: #FFF;
+    left: 135px;
+    bottom: 260px;
+}
+.North-America{
+    position: relative;
+    font-size: 2rem;
+    color: #FFF;
+    left: 115px;
+    bottom: 265px;
+}
+.Kashmir{
+    position: relative;
+    font-size: 2rem;
+    color: #FFF;
+    left: 70px;
+    bottom: 270px;
+}
+.Bangladesh{
+    position: relative;
+    font-size: 2rem;
+    color: #FFF;
+    left: 145px;
+    bottom: 265px;
+}
+.Bandarban{
+    position: relative;
+    font-size: 2rem;
+    color: #FFF;
+    left: 240px;
+    bottom: 270px;
+}
+
 /* Section-4 style now start here */
 
 .section-4 {

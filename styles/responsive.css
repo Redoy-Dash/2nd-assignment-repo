@@ -2,7 +2,7 @@
 
     /* nav bar responsive */
 
-    .nav-container{
+    .nav-container {
         position: relative;
         left: 25px;
     }
@@ -81,7 +81,8 @@
         padding-left: 0px;
 
     }
-    .section-2-img{
+
+    .section-2-img {
         position: relative;
         left: 10px;
     }
@@ -173,6 +174,61 @@
         height: 300px;
         object-fit: cover;
     }
+
+    .maldives {
+        position: relative;
+        bottom: 215px;
+        left: 190px;
+    }
+
+    .indonesia {
+        position: relative;
+        font-size: 2rem;
+        color: #FFF;
+        left: 180px;
+        bottom: 210px;
+    }
+
+    .Srilanka {
+        position: relative;
+        font-size: 2rem;
+        color: #FFF;
+        left: 185px;
+        bottom: 210px;
+    }
+
+    .North-America {
+        position: relative;
+        font-size: 2rem;
+        color: #FFF;
+        left: 115px;
+        bottom: 215px;
+    }
+
+    .Kashmir {
+        position: relative;
+        font-size: 2rem;
+        color: #FFF;
+        left: 187px;
+        bottom: 210px;
+    }
+
+    .Bangladesh {
+        position: relative;
+        font-size: 2rem;
+        color: #FFF;
+        left: 145px;
+        bottom: 210px;
+    }
+
+    .Bandarban {
+        position: relative;
+        font-size: 2rem;
+        color: #FFF;
+        left: 160px;
+        bottom: 210px;
+    }
+
 
     /* section-4 responsive */
 
@@ -317,7 +373,8 @@
         line-height: 24px;
         margin: 0 55px;
     }
-    .footer hr{
+
+    .footer hr {
         width: 80%;
     }
 
