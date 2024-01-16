@@ -500,7 +500,9 @@ hr {
 /* Responsive style */
 
 @media screen and (max-width:576px) {
-    /* section-2 */
+
+    /* section-2 responsive*/
+
     .section-2 {
         height: auto;
         width: 490px;
@@ -522,9 +524,137 @@ hr {
         line-height: 24px;
     }
 
-    .section-2-item h2 {
-        font-size: 20px;
+    /* section-3 responsive */
+
+    .section-3 {
+        width: 490px;
+        margin: 0;
+        padding-left: 0;
     }
 
-    /* section-3 */
+    .section-3-title h2 {
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .section-3-title p {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .section-3-title {
+        position: relative;
+        padding: 0;
+        width: 490px;
+        left: 32px;
+    }
+
+    .img-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 490px;
+        left: 33px;
+
+    }
+
+    .grid-item-1 {
+        position: relative;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .grid-item-2 {
+        height: 300px;
+        object-fit: cover;
+
+    }
+
+    .grid-item-3 {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .grid-item-4 {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .grid-item-5 {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .grid-item-6 {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .grid-item-7 {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    /* section-4 responsive */
+
+    .section-4 {
+        width: 490px;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .section-4-title {
+        position: relative;
+        padding: 0;
+        width: 490px;
+        left: 32px;
+    }
+
+    .section-4-title h2 {
+        color: #131318;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: 40px;
+    }
+
+    .section-4-title p {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .section-4-content {
+        flex-direction: column;
+        position: relative;
+        /* left: 145px; */
+    }
+
+    .section-4-content div {
+        position: relative;
+        width: 88%;
+        left: 30px;
+        margin-bottom: 16px;
+    }
+
+    .section-4-content-3 {
+        position: relative;
+        width: 88%;
+        left: 30px;
+        bottom: 22px;
+    }
+
+    /* section-5 responsive */
+
+
 }
