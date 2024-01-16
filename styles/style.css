@@ -499,7 +499,68 @@ hr {
 
 /* Responsive style */
 
+
 @media screen and (max-width:576px) {
+
+    /* section-1 responsive */
+
+    .section-1 {
+        margin: 15px 32px;
+        background-size: 490px 580px;
+        background-repeat: no-repeat;
+        /* object-fit: cover; */
+    }
+
+    .banner-title {
+        width: 490px;
+    }
+
+    .banner-title h1 {
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner-title p {
+        position: relative;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        width: 400px;
+        left: 45px;
+    }
+
+    .input-container {
+        padding: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.428);
+        position: relative;
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        left: 85px;
+        top: 60px;
+    }
+
+    .input-container input {
+        width: 281px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .btn {
+        width: 286px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
 
     /* section-2 responsive*/
 
