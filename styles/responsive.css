@@ -4,7 +4,7 @@
 
     .nav-container{
         position: relative;
-        left: 20px;
+        left: 25px;
     }
 
     /* section-1 responsive */
@@ -13,7 +13,9 @@
         margin: 25px 38px;
         background-size: 490px 580px;
         background-repeat: no-repeat;
-        /* object-fit: cover; */
+        object-fit: cover;
+        position: relative;
+        left: 5px;
     }
 
     .banner-title {
@@ -79,6 +81,10 @@
         padding-left: 0px;
 
     }
+    .section-2-img{
+        position: relative;
+        left: 10px;
+    }
 
     .section-2-item p {
         text-align: left;
@@ -127,7 +133,7 @@
         display: flex;
         flex-direction: column;
         width: 490px;
-        left: 33px;
+        left: 42px;
 
     }
 
@@ -203,7 +209,7 @@
     .section-4-content {
         flex-direction: column;
         position: relative;
-        /* left: 145px; */
+        left: 10px;
     }
 
     .section-4-content div {
@@ -216,7 +222,7 @@
     .section-4-content-3 {
         position: relative;
         width: 88%;
-        left: 30px;
+        left: 40px;
         bottom: 22px;
     }
 
@@ -233,7 +239,7 @@
         position: relative;
         width: 88%;
         border-radius: 15px;
-        left: 32px;
+        left: 42px;
         text-align: center;
     }
 
@@ -258,6 +264,7 @@
         margin: 15px 32px;
         background-size: 490px 335px;
         background-repeat: no-repeat;
+        left: 13px;
     }
 
     .img-box {
@@ -296,7 +303,7 @@
     /* footer responsive */
 
     .footer {
-        width: 559px;
+        width: 575px;
         height: 490px;
         flex-shrink: 0;
     }
