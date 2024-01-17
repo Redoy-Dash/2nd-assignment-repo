@@ -7,6 +7,19 @@
         left: 25px;
     }
 
+    .arrow-1 {
+        position: relative;
+        display: none;
+    }
+
+    .arrow-2 {
+        position: relative;
+        left: 380px;
+        bottom: 151px;
+    }
+
+
+
     /* section-1 responsive */
 
     .section-1 {

@@ -17,6 +17,20 @@ body {
 }
 
 /* Nav section style start here */
+.fa-solid{
+    position: relative;
+    right: 30px;
+}
+.arrow-1{
+    position: relative;
+    left: 580px;
+    top: 45px;
+}
+.arrow-2{
+    position: relative;
+    left: 785px;
+    bottom: 2px;
+}
 
 /* nav container style */
 .nav-contain {
